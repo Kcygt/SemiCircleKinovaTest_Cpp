@@ -19,10 +19,6 @@ constexpr double DEG2RAD = PI / 180.0;
 constexpr double RAD2DEG = 180.0 / PI;
 
 
-/////////////////////////////
-/////////////////////////////
-/////////////////////////////
-//
 void hypodromefn(double s, double radius, double line_length, double& P_z_derivative, double& P_x_derivative, double& P_z, double& P_x) {
     const double M_PI = 3.1415;
     double alpha = (2 * line_length) / (radius * M_PI) + 1;
@@ -82,10 +78,6 @@ double brushRotation(const double alpha, double s) {
     return radian;
 }
 
-
-/////////////////////////
-/////////////////////////
-/////////////////////////
 double shiftPositionInterval(const double q)
 {
     return q < 180.0 ? q : q - 360.0;
