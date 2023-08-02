@@ -175,7 +175,7 @@ int main()
     double W =  (alpha + 1) / (tBlend * (tFinal - tBlend));
     
 
-    while (tElapsed.count() < BUFFER_SIZE - 1)
+    while (tElapsed.count() < 4001 - 1)
     {
         tIterationStart = Clock::now();
         tElapsed = tIterationStart - tLoopStart;
