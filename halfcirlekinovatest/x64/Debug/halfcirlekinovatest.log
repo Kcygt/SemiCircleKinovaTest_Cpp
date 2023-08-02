@@ -1,0 +1,2 @@
+﻿  test.cpp
+LINK : fatal error LNK1104: cannot open file 'C:\Users\KCY\source\repos\halfcirlekinovatest\x64\Debug\halfcirlekinovatest.exe'
