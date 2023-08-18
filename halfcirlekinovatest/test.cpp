@@ -46,6 +46,21 @@ void hypodromefn(double s, double radius, double line_length, double& P_z_deriva
     }
 }
 
+void rotation(double radian, Eigen::Matrix3d& Rx, Eigen::Matrix3d& Ry, Eigen::Matrix3d& Rz) {
+    Rx << 1, 0, 0,
+        0, cos(radian), -sin(radian),
+        0, sin(radian), cos(radian);
+
+    Ry << cos(radian), 0, sin(radian),
+        0, 1, 0,
+        -sin(radian), 0, cos(radian);
+
+    Rz << cos(radian), -sin(radian), 0,
+        sin(radian), cos(radian), 0,
+        0, 0, 1;
+}
+
+
 void sFun(double W, double tBlend, double tInstant, double tFinal, double& s, double& sDot) {
 
     if (tInstant <= tBlend) {
@@ -107,19 +122,14 @@ int main()
     Eigen::Vector<double, 6> xp = Eigen::Vector<double, 6>::Zero();
     Eigen::Vector<double, 3> xd = Eigen::Vector<double, 3>::Zero();
     Eigen::Vector<double, 6> xpd = Eigen::Vector<double, 6>::Zero();
-    //Eigen::Matrix<double, 3, 3> R = Eigen::Matrix<double, 3, 3>::Identity();
+    /*Eigen::Matrix<double, 3, 3> Rx = Eigen::Matrix<double, 3, 3>::Identity();
+    Eigen::Matrix<double, 3, 3> Ry = Eigen::Matrix<double, 3, 3>::Identity();
+    Eigen::Matrix<double, 3, 3> Rz = Eigen::Matrix<double, 3, 3>::Identity();*/
+    Eigen::Matrix<double, 3, 3> R = Eigen::Matrix<double, 3, 3>::Identity();
     Eigen::Matrix<double, 6, 7> J = Eigen::Matrix<double, 6, 7>::Ones();
     Eigen::Vector<double, 3> P = Eigen::Vector<double, 3>::Zero();
-    Eigen::Matrix3d R;
-    /*
-    R << 0.8660254, 0.5000000, 0.0000000,
-        -0.5000000, 0.8660254, 0.0000000,
-        0.0000000, 0.0000000, 1.0000000;
-        */
-
-    R << 1.0, 0.0, 0.0,
-         0.0, 1.0, 0.0,
-         0.0, 0.0, 1.0;
+   
+    
 
     int i(0);
 
@@ -174,22 +184,31 @@ int main()
     double tFinal = 4.0;
     double W =  (alpha + 1) / (tBlend * (tFinal - tBlend));
     
+    double radian = 3.1415 / 3;
+    Eigen::Matrix3d Rx, Ry, Rz;
+    rotation(radian, Rx, Ry, Rz);
+    std::cout <<'Rx=' << Rx << std::endl;
+    std::cout << 'Ry=' << Ry << std::endl;
+
+    std::cout << 'Rz=' << Rz << std::endl;
 
     while (tElapsed.count() < 4001 - 1)
     {
         tIterationStart = Clock::now();
         tElapsed = tIterationStart - tLoopStart;
+        sFun(W, tBlend, tElapsed.count() * 1e-3, tFinal, s, sDot);
 
         hypodromefn(s, radius, line_length, P_z_derivative, P_x_derivative, P_z, P_x);
-        sFun(W, tBlend, tElapsed.count() * 1e-3, tFinal, s, sDot);
         P << P_x_derivative, 0.0, P_z_derivative;
-        P = P.transpose() * R;
+        //P = Ry*P;
+
         xpd(2) = P(2) * sDot;
         xpd(0) = P(0) * sDot;
-        /*if (tElapsed.count()/1000 < 1.0) {
+
+        if (tElapsed.count()/1000 > 1.0 && tElapsed.count() / 1000 < 2.0) {
             q(5) = q(5) - 2e-4;
             std::cout << tElapsed.count() / 1000<< std::endl;
-        }*/
+        }
 
 
         // Solve inverse kinematics
