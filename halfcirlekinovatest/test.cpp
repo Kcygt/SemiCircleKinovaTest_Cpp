@@ -118,16 +118,18 @@ int main()
     Eigen::Vector<double, 7> q = q0;
     Eigen::Vector<double, 7> qp = Eigen::Vector<double, 7>::Zero();
     Eigen::Vector<double, 7> qpd = Eigen::Vector<double, 7>::Zero();
-    Eigen::Vector<double, 3> x = Eigen::Vector<double, 3>::Zero();
+    Eigen::Vector<double, 6> x = Eigen::Vector<double, 6>::Zero();
     Eigen::Vector<double, 6> xp = Eigen::Vector<double, 6>::Zero();
     Eigen::Vector<double, 3> xd = Eigen::Vector<double, 3>::Zero();
     Eigen::Vector<double, 6> xpd = Eigen::Vector<double, 6>::Zero();
-    /*Eigen::Matrix<double, 3, 3> Rx = Eigen::Matrix<double, 3, 3>::Identity();
-    Eigen::Matrix<double, 3, 3> Ry = Eigen::Matrix<double, 3, 3>::Identity();
-    Eigen::Matrix<double, 3, 3> Rz = Eigen::Matrix<double, 3, 3>::Identity();*/
     Eigen::Matrix<double, 3, 3> R = Eigen::Matrix<double, 3, 3>::Identity();
     Eigen::Matrix<double, 6, 7> J = Eigen::Matrix<double, 6, 7>::Ones();
     Eigen::Vector<double, 3> P = Eigen::Vector<double, 3>::Zero();
+    Eigen::Vector<double, 3> Pp = Eigen::Vector<double, 3>::Zero();
+    Eigen::Vector<double, 6> x_e = Eigen::Vector<double, 6>::Zero();
+    Eigen::Matrix<double, 3, 3> R_track = Eigen::Matrix<double, 3, 3>::Identity();
+    Eigen::Vector<double, 6> x_err = Eigen::Vector<double, 6>::Zero();
+
 
 
 
@@ -193,35 +195,33 @@ int main()
     {
         tIterationStart = Clock::now();
         tElapsed = tIterationStart - tLoopStart;
-        sFun(W, tBlend, tElapsed.count() * 1e-3, tFinal, s, sDot);
 
+        sFun(W, tBlend, tElapsed.count() * 1e-3, tFinal, s, sDot);
         hypodromefn(s, radius, line_length, P_z_derivative, P_x_derivative, P_z, P_x);
-        P << P_x_derivative, 0.0, P_z_derivative;
-        //P = Ry*P;
+
+        xd << P_x, 0.0, P_z, 0.0, 0.0,0.0;
+        Pp << P_x_derivative, 0.0, P_z_derivative;
 
         xpd(2) = P(2) * sDot;
         xpd(0) = P(0) * sDot;
 
-      /*  if (tElapsed.count() / 1000 > 1.0 && tElapsed.count() / 1000 < 2.0) {
-            q(5) = q(5) - 2e-4;
-            std::cout << tElapsed.count() / 1000 << std::endl;
-        }*/
+        robot.forwardKinematics(q, x_e, R_track);
 
+        x_err = xd - x_e;
 
         // Solve inverse kinematics
-        robot.inverseKinematics(q, xpd, qp);
+        robot.inverseKinematics(q,x_err, xpd, qp);
 
         // Calculate the actual time-step
         h = tIterationStart - tPrevIterationStart;
 
 
         q += qp * static_cast<double>(h.count()) * 1e-3;
-        robot.forwardKinematics(q, x, R);
         robot.jacobian(q, J);
         xp = J * qpd;
 
         // Write simulation data to buffer
-        log.writeToBuffer(static_cast<double>(tElapsed.count()) * 1e-3, q, qp, xd, xpd, x, xp, R);
+        //log.writeToBuffer(static_cast<double>(tElapsed.count()) * 1e-3, q, qp, P, xpd, x_err, xp);
 
         while (t - tIterationStart < tStep)
             t = Clock::now();
