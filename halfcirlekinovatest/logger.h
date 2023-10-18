@@ -5,7 +5,7 @@
 #include <Eigen/Dense>
 
 
-#define BUFFER_SIZE_1 33
+#define BUFFER_SIZE_1 36
 
 class Logger
 {
@@ -18,9 +18,9 @@ public:
         const Eigen::Vector<double, 7>& qp,
         const Eigen::Vector<double, 3>& xd,
         const Eigen::Vector<double, 6>& xpd,
-        const Eigen::Vector<double, 3>& x,
-        const Eigen::Vector<double, 6>& xp,
-        const Eigen::Matrix<double, 3, 3>& R
+        const Eigen::Vector<double, 6>& x_err,
+        const Eigen::Vector<double, 6>& x,
+        const Eigen::Vector<double, 6>& xp
     );
 
 private:

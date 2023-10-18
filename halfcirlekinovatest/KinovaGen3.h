@@ -11,6 +11,7 @@ public:
         Eigen::Matrix<double, 3, 3>& R);
 
     void inverseKinematics(const Eigen::Vector<double, 7> q,
+        const Eigen::Vector<double, 6> x,
         const Eigen::Vector<double, 6> xp,
         Eigen::Vector<double, 7>& qp);
 

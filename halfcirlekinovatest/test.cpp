@@ -110,12 +110,21 @@ int main()
     //Eigen::Matrix<double, 3, 3> R = Eigen::Matrix<double, 3, 3>::Identity();
     Eigen::Matrix<double, 6, 7> J = Eigen::Matrix<double, 6, 7>::Ones();
     Eigen::Vector<double, 3> P = Eigen::Vector<double, 3>::Zero();
+<<<<<<< Updated upstream
     Eigen::Matrix3d R;
     /*
     R << 0.8660254, 0.5000000, 0.0000000,
         -0.5000000, 0.8660254, 0.0000000,
         0.0000000, 0.0000000, 1.0000000;
         */
+=======
+    Eigen::Vector<double, 3> Pp = Eigen::Vector<double, 3>::Zero();
+    Eigen::Vector<double, 3> xe = Eigen::Vector<double, 3>::Zero();
+    Eigen::Matrix<double, 3, 3> R_track = Eigen::Matrix<double, 3, 3>::Identity();
+    Eigen::Vector<double, 6> x_err = Eigen::Vector<double, 6>::Zero();
+
+
+>>>>>>> Stashed changes
 
     R << 1.0, 0.0, 0.0,
          0.0, 1.0, 0.0,
@@ -181,9 +190,10 @@ int main()
         tElapsed = tIterationStart - tLoopStart;
 
         hypodromefn(s, radius, line_length, P_z_derivative, P_x_derivative, P_z, P_x);
+//<<<<<<< Updated upstream
         sFun(W, tBlend, tElapsed.count() * 1e-3, tFinal, s, sDot);
         P << P_x_derivative, 0.0, P_z_derivative;
-        P = P.transpose() * R;
+        
         xpd(2) = P(2) * sDot;
         xpd(0) = P(0) * sDot;
         /*if (tElapsed.count()/1000 < 1.0) {
@@ -191,6 +201,18 @@ int main()
             std::cout << tElapsed.count() / 1000<< std::endl;
         }*/
 
+//=======
+
+        xd << P_x, 0.0, P_z;
+        // Pp << P_x_derivative, 0.0, P_z_derivative;
+
+        xpd(2) = P_z_derivative * sDot;
+        xpd(0) = P_x_derivative * sDot;
+
+        robot.forwardKinematics(q, xe, R_track);
+
+        x_err << xd - xe, 0.0, 0.0, 0.0;
+//>>>>>>> Stashed changes
 
         // Solve inverse kinematics
         robot.inverseKinematics(q, xpd, qp);
@@ -205,7 +227,11 @@ int main()
         xp = J * qpd;
 
         // Write simulation data to buffer
+//<<<<<<< Updated upstream
         log.writeToBuffer(static_cast<double>(tElapsed.count()) * 1e-3, q, qp, xd, xpd, x, xp, R);
+//=======
+        log.writeToBuffer(static_cast<double>(tElapsed.count()) * 1e-3, q, qp, xd, xpd, x_err, x, xp);
+//>>>>>>> Stashed changes
 
         while (t - tIterationStart < tStep)
             t = Clock::now();

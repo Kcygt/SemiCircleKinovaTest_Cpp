@@ -38,9 +38,10 @@ void Logger::writeToBuffer(const double t,
     const Eigen::Vector<double, 7>& qp,
     const Eigen::Vector<double, 3>& xd,
     const Eigen::Vector<double, 6>& xpd,
-    const Eigen::Vector<double, 3>& x,
-    const Eigen::Vector<double, 6>& xp,
-    const Eigen::Matrix<double, 3,3>& R 
+    const Eigen::Vector<double, 6>& e_err,
+    const Eigen::Vector<double, 6>& x,
+    const Eigen::Vector<double, 6>& xp
+     
 
 )
 {

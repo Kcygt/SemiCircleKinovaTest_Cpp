@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿  KinovaGen3.cpp
 C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3986,33): warning C4305: 'initializing': truncation from 'double' to 'float'
 C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3988,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
@@ -147,4 +148,7 @@ C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\
   circlegeneration.cpp
   Generating Code...
   LINK : C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\x64\Debug\halfcirlekinovatest.exe not found or not built by the last incremental link; performing full link
+=======
+﻿  test.cpp
+>>>>>>> Stashed changes
   halfcirlekinovatest.vcxproj -> C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\x64\Debug\halfcirlekinovatest.exe
