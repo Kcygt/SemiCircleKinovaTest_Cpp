@@ -205,10 +205,10 @@ int main()
         xpd(2) = P(2) * sDot;
         xpd(0) = P(0) * sDot;
 
-        if (tElapsed.count()/1000 > 1.0 && tElapsed.count() / 1000 < 2.0) {
-            q(5) = q(5) - 2e-4;
-            std::cout << tElapsed.count() / 1000<< std::endl;
-        }
+//        if (tElapsed.count()/1000 > 1.0 && tElapsed.count() / 1000 < 2.0) {
+ //           q(5) = q(5) - 2e-4;
+   //         std::cout << tElapsed.count() / 1000<< std::endl;
+     //   }
 
 
         // Solve inverse kinematics
