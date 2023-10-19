@@ -1,2 +1,143 @@
-﻿  test.cpp
+﻿  KinovaGen3.cpp
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3987,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3989,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3989,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3990,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3990,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3991,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3991,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3992,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3992,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3993,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3993,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3994,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3994,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3995,23): warning C4244: 'initializing': conversion from 'const double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(3995,20): warning C4244: 'initializing': conversion from 'const double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4001,35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4001,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4004,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4004,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4009,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4009,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4017,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4017,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4021,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4021,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4029,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4029,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4030,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4030,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4031,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4031,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4032,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4032,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4033,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4033,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4034,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4034,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4039,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4039,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4040,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4040,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4041,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4041,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4043,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4043,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4047,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4047,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4051,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4051,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4059,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4059,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4061,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4061,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4063,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4063,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4064,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4064,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4065,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4065,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4066,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4066,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4067,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4067,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4068,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4068,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4069,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4069,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4070,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4070,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4082,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4082,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4087,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4087,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4091,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4091,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4095,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4095,21): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4099,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4099,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4100,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4100,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4120,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4120,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4132,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4132,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4134,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4134,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4141,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4141,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4142,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4142,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4143,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4143,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4144,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4144,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4145,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4145,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4147,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4147,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4149,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4149,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4150,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4150,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4152,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4152,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4153,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4153,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4156,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4156,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4160,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4160,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4162,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4162,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4164,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4164,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4165,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4165,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4166,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4166,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4169,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4169,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4172,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4172,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4173,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4173,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4175,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4175,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4176,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4176,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4177,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4177,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4178,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4178,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4179,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4179,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4180,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4180,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4183,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4183,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4184,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\halfcirlekinovatest\KinovaGen3.cpp(4184,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
   halfcirlekinovatest.vcxproj -> C:\Users\zs839395\Documents\GitHub\SemiCircleKinovaTest_Cpp\x64\Debug\halfcirlekinovatest.exe
