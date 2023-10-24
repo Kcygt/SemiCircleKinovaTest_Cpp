@@ -10,7 +10,7 @@
 #include <vector>  ///// //////
 #include <fstream>
 
-#define BUFFER_SIZE 4001
+#define BUFFER_SIZE 3001
 
 typedef std::chrono::high_resolution_clock Clock;
 
@@ -177,8 +177,8 @@ int main()
     // Start time of the previous iteration of the loop
     auto tPrevIterationStart = t;
 
-    double radius = 0.08;
-    double line_length = 0.1;
+    double radius = 0.05;
+    double line_length = 0.05;
 
 
     double alpha = (2 * line_length) / (radius * 3.1415) + 1;
@@ -186,7 +186,7 @@ int main()
     double s = 0.0;
     double sDot = 0.0;
     double tBlend = 1.0;
-    double tFinal = 4.0;
+    double tFinal = 3.0;
     double W = (alpha + 1) / (tBlend * (tFinal - tBlend));
 
     double radian = 1;
@@ -199,7 +199,7 @@ int main()
     std::ofstream desiredjointpositions;
     std::ofstream Scicilianojointpositions;
 
-    while (tElapsed.count() < 4001 - 1)
+    while (tElapsed.count() < 3001 - 1)
     {
         tIterationStart = Clock::now();
         tElapsed = tIterationStart - tLoopStart;
@@ -207,7 +207,7 @@ int main()
 
         hypodromefn(s, radius, line_length, P_z_derivative, P_x_derivative, P_z, P_x);
         Pp << P_x_derivative, 0.0, P_z_derivative;
-        //Pp = Ry*Pp; // Rotating the path
+
         robot.forwardKinematics(q, x, R);
 
         xd << P_x + x0(0), 0.0 - x0(1), P_z + radius + x0(2);

@@ -5,7 +5,7 @@
 #include <Eigen/Dense>
 
 
-#define BUFFER_SIZE_1 33
+#define BUFFER_SIZE_1 35
 
 class Logger
 {
